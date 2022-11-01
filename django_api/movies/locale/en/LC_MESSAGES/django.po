@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-27 08:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: movies/admin.py:8
+msgid "-empty-"
+msgstr "-empty-"
+
+#: movies/admin.py:29
+#, fuzzy
+#| msgid "Filmworks"
+msgid "Filmwork's genre"
+msgstr "Filmwork's genre"
+
+#: movies/admin.py:30
+#, fuzzy
+#| msgid "Filmworks"
+msgid "Filmwork's genres"
+msgstr "Filmwork's genres"
+
+#: movies/admin.py:36
+msgid "Person in filmwork"
+msgstr "Person in filmwork"
+
+#: movies/admin.py:37
+msgid "People in filmwork"
+msgstr "People in filmwork"
+
+#: movies/admin.py:54 movies/models.py:78
+msgid "genres"
+msgstr "Genres"
+
+#: movies/admin.py:60 movies/models.py:84
+msgid "people"
+msgstr "People"
+
+#: movies/apps.py:8
+msgid "Movies"
+msgstr "Movies"
+
+#: movies/models.py:9 movies/models.py:115 movies/models.py:150
+msgid "created"
+msgstr "Created"
+
+#: movies/models.py:10
+msgid "modified"
+msgstr "Modified"
+
+#: movies/models.py:24
+#, fuzzy
+#| msgid "full_name"
+msgid "name"
+msgstr "Full Name"
+
+#: movies/models.py:25 movies/models.py:54
+msgid "description"
+msgstr "Description"
+
+#: movies/models.py:29 movies/models.py:112
+msgid "Genre"
+msgstr "Genre"
+
+#: movies/models.py:30
+msgid "Genres"
+msgstr "Genres"
+
+#: movies/models.py:37
+msgid "full_name"
+msgstr "Full Name"
+
+#: movies/models.py:41 movies/models.py:142
+msgid "Person"
+msgstr "Person"
+
+#: movies/models.py:42
+msgid "People"
+msgstr "People"
+
+#: movies/models.py:50
+msgid "movie"
+msgstr "Movie"
+
+#: movies/models.py:51
+msgid "tv_show"
+msgstr "TV-show"
+
+#: movies/models.py:53
+msgid "title"
+msgstr "Title"
+
+#: movies/models.py:55
+msgid "creation_date"
+msgstr "Creation Date"
+
+#: movies/models.py:57
+msgid "file"
+msgstr "File"
+
+#: movies/models.py:63
+msgid "rating"
+msgstr "Rating"
+
+#: movies/models.py:66
+msgid "Rating should be greater than 0"
+msgstr "Rating should be greater than 0"
+
+#: movies/models.py:67
+msgid "Rating should be less than 100"
+msgstr "Rating should be less than 100"
+
+#: movies/models.py:71
+msgid "type"
+msgstr "Type"
+
+#: movies/models.py:91 movies/models.py:106 movies/models.py:136
+msgid "Filmwork"
+msgstr "Filmwork"
+
+#: movies/models.py:92
+msgid "Filmworks"
+msgstr "Filmworks"
+
+#: movies/models.py:129
+msgid "writer"
+msgstr "Writer"
+
+#: movies/models.py:130
+msgid "actor"
+msgstr "Actor"
+
+#: movies/models.py:131
+msgid "director"
+msgstr "Director"
+
+#: movies/models.py:145
+msgid "role"
+msgstr "Role"

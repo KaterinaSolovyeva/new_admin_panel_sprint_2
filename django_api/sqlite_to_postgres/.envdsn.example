@@ -1,0 +1,6 @@
+dbname=database_name # имя базы данных
+user=user # логин для подключения к базе данных
+password=12345 # пароль для подключения к БД
+host=db
+port=5432
+options='-c search_path=content'
