@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM --platform=linux/amd64 python:3.10.2-buster
 
 WORKDIR /opt/app
 
@@ -16,7 +16,7 @@ COPY uwsgi/uwsgi.ini uwsgi.ini
 RUN  mkdir -p /opt/app/static/ \
      && mkdir -p /opt/app/media/ \
      && pip install --upgrade pip \
-     && pip install -r requirements.txt
+     && pip install -r requirements.txt --no-cache-dir
 
 COPY . .
 

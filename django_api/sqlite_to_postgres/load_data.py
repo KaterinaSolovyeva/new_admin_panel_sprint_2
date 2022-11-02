@@ -4,9 +4,8 @@ from typing import Generator
 
 import psycopg2
 from dotenv import dotenv_values
-from psycopg2.extensions import connection as _connection
-
 from loaders import PostgresSaver, SQLiteExtractor
+from psycopg2.extensions import connection as _connection
 from tables import tables
 
 DSN = dotenv_values('.envdsn')

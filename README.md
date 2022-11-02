@@ -19,7 +19,7 @@ make admin
 ```
 # Запуск в браузере
 - Открытие административного сайта - http://127.0.0.1:80/admin/
-- Django Api - http://127.0.0.1:8000/api/v1/movies/
+- Django Api - http://127.0.0.1:80/api/v1/movies/
 - Swagger для тестирования API проекта - http://127.0.0.1:8082
 
 # Проектное задание: Docker-compose

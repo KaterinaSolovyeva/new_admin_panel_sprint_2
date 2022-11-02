@@ -4,7 +4,6 @@ from typing import List, Optional, Union
 
 from psycopg2.extensions import connection as _connection
 from psycopg2.extras import execute_batch
-
 from tables import Filmwork, Genre, GenreFilmwork, Person, PersonFilmwork
 
 BATCH_SIZE = 1000
